@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Skill</string>
+    <string name="title_home">Courses</string>
+    <string name="title_map">Centers</string>
+    <string name="title_success">Success Stories</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="filter_trade">Trade</string>
+    <string name="filter_duration">Duration</string>
+
+    <string name="btn_apply">Apply Now</string>
+    <string name="btn_interested">I am interested</string>
+
+    <string name="job_guarantee">Job Guaranteed</string>
+    <string name="short_term">Short Term</string>
+    <string name="long_term">Long Term</string>
+
+    <string name="profile_header">My Profile &amp; Applications</string>
+    <string name="training_centers">Training Centers</string>
+    <string name="all_districts">All Districts</string>
+    <string name="district_mysuru">Mysuru</string>
+    <string name="district_mandya">Mandya</string>
+    <string name="district_krishnagiri">Krishnagiri</string>
+    <string name="district_bengaluru">Bengaluru</string>
+    <string name="district_tumkur">Tumkur</string>
+    <string name="btn_call">Call Center</string>
+    <string name="btn_directions">Get Directions</string>
+    <string name="about_course">About this Course</string>
+    <string name="center_info">Center Information</string>
+    <string name="applied_count">Applied</string>
+    <string name="alerts_count">Alerts</string>
+    <string name="app_history">My Application History</string>
+
+    <string name="login_error">Invalid email or password</string>
+
+    <!-- Apply / Candidate Summary -->
+    <string name="summary_title">Almost Done! 🎉</string>
+    <string name="summary_subtitle">Review your details and confirm your application.</string>
+    <string name="candidate_info">Your Information</string>
+    <string name="candidate_name_label">Name: %1$s</string>
+    <string name="candidate_phone_label">Phone: %1$s</string>
+    <string name="candidate_edu_label">Education: %1$s</string>
+    <string name="eligibility_verified">✅ You are eligible for this course!</string>
+    <string name="btn_confirm_apply">✅ Confirm &amp; Send Application</string>
+
+    <!-- Apply Success Dialog -->
+    <string name="apply_success_title">Application Sent! 🎉</string>
+    <string name="apply_success_message">Great job, %1$s! Your application for %2$s has been sent. The skill center will call you within 2 working days.</string>
+    <string name="btn_ok_great">OK, Got it!</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your skill journey</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+
+    <!-- Welcome Banner -->
+    <string name="welcome_greeting">Hello, %1$s! 👋</string>
+    <string name="welcome_tip">Your next opportunity is just one course away. Keep going! 💪</string>
+
+    <!-- Profile Completion -->
+    <string name="profile_completion">Profile %1$d%% Complete</string>
+    <string name="profile_complete_tip">A complete profile helps skill centers contact you faster!</string>
+    <string name="profile_saved_success">Profile saved! 🎉</string>
+    <string name="error_name_required">Please enter your full name</string>
+    <string name="error_phone_invalid">Please enter a valid 10-digit phone number</string>
+</resources>

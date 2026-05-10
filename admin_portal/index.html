@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Namma-Skill Admin Portal</title>
+    <!-- Firebase Web SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; }
+        .container { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; box-shadow: 0px 4px 6px rgba(0,0,0,0.1); }
+        input, select, textarea { width: 100%; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+        button { background-color: #007BFF; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%;}
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Add New Course Batch</h2>
+    <form id="addCourseForm">
+        <label>Course Title</label>
+        <input type="text" id="title" placeholder="e.g. Advanced Welding" required>
+
+        <label>Trade Category</label>
+        <select id="trade">
+            <option>Electrician</option>
+            <option>Sewing</option>
+            <option>Coding</option>
+        </select>
+
+        <label>Center Name</label>
+        <input type="text" id="centerName" placeholder="e.g. Hosur Skill Center" required>
+
+        <label>Duration</label>
+        <input type="text" id="duration" placeholder="e.g. 3 Months" required>
+
+        <label>Is this a Short Term course?</label>
+        <select id="isShortTerm">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+
+        <label>Does it have a Job Guarantee?</label>
+        <select id="hasJobGuarantee">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+
+        <label>Description</label>
+        <textarea id="description" rows="3" required></textarea>
+
+        <label>Image URL (from Firebase Storage)</label>
+        <input type="text" id="imageUrl" placeholder="https://..." required>
+
+        <button type="submit">Publish Course</button>
+    </form>
+</div>
+
+<script>
+    // TO DO: Replace with your actual Firebase Web Config from the Firebase Console!
+    const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+};
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+
+    document.getElementById('addCourseForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const courseData = {
+            title: document.getElementById('title').value,
+            trade: document.getElementById('trade').value,
+            centerName: document.getElementById('centerName').value,
+            duration: document.getElementById('duration').value,
+            isShortTerm: document.getElementById('isShortTerm').value === "true",
+            hasJobGuarantee: document.getElementById('hasJobGuarantee').value === "true",
+            description: document.getElementById('description').value,
+            imageUrl: document.getElementById('imageUrl').value,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        };
+
+        try {
+            await db.collection("courses").add(courseData);
+            alert("Course successfully published! A notification will be sent to users.");
+            document.getElementById('addCourseForm').reset();
+        } catch (error) {
+            console.error("Error adding document: ", error);
+            alert("Error adding course. Check console.");
+        }
+    });
+</script>
+
+</body>
+</html>

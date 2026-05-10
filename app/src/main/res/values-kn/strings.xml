@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಮ್ಮ-ಸ್ಕಿಲ್</string>
+    <string name="title_home">ಕೋರ್ಸ್‌ಗಳು</string>
+    <string name="title_map">ಕೇಂದ್ರಗಳು</string>
+    <string name="title_success">ಯಶೋಗಾಥೆಗಳು</string>
+    <string name="title_profile">ಪ್ರೊಫೈಲ್</string>
+    
+    <string name="filter_trade">ವೃತ್ತಿ</string>
+    <string name="filter_duration">ಅವಧಿ</string>
+    
+    <string name="btn_apply">ಈಗ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ</string>
+    <string name="btn_interested">ನನಗೆ ಆಸಕ್ತಿ ಇದೆ</string>
+    
+    <string name="job_guarantee">ಉದ್ಯೋಗ ಖಾತರಿ</string>
+    <string name="short_term">ಅಲ್ಪಾವಧಿ</string>
+    <string name="long_term">ದೀರ್ಘಾವಧಿ</string>
+
+    <string name="profile_header">ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅರ್ಜಿ ಇತಿಹಾಸ</string>
+    <string name="training_centers">ತರಬೇತಿ ಕೇಂದ್ರಗಳು</string>
+    <string name="all_districts">ಎಲ್ಲಾ ಜಿಲ್ಲೆಗಳು</string>
+    <string name="district_mysuru">ಮೈಸೂರು</string>
+    <string name="district_mandya">ಮಂಡ್ಯ</string>
+    <string name="district_krishnagiri">ಕೃಷ್ಣಗಿರಿ</string>
+    <string name="btn_call">ಕರೆ ಮಾಡಿ</string>
+    <string name="btn_directions">ನಿರ್ದೇಶನಗಳು</string>
+    <string name="about_course">ಈ ಕೋರ್ಸ್ ಬಗ್ಗೆ</string>
+    <string name="center_info">ಕೇಂದ್ರದ ಮಾಹಿತಿ</string>
+    <string name="applied_count">ಅರ್ಜಿ ಸಲ್ಲಿಸಿದವರು</string>
+    <string name="alerts_count">ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="app_history">ನನ್ನ ಅರ್ಜಿ ಇತಿಹಾಸ</string>
+
+    <string name="login_error">ಅಮಾನ್ಯ ಇಮೇಲ್ ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್</string>
+
+    <string name="summary_title">ಅಭ್ಯರ್ಥಿಯ ಸಾರಾಂಶ</string>
+    <string name="summary_subtitle">ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮುನ್ನ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="candidate_info">ಅಭ್ಯರ್ಥಿಯ ಮಾಹಿತಿ</string>
+    <string name="candidate_name_label">ಹೆಸರು: %1$s</string>
+    <string name="candidate_phone_label">ಫೋನ್: %1$s</string>
+    <string name="candidate_edu_label">ಶಿಕ್ಷಣ: %1$s</string>
+    <string name="eligibility_verified">ಅರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ</string>
+    <string name="btn_confirm_apply">ಖಚಿತಪಡಿಸಿ ಮತ್ತು ಅರ್ಜಿ ಸಲ್ಲಿಸಿ</string>
+
+    <string name="login_title">ಮತ್ತೆ ಸ್ವಾಗತ</string>
+    <string name="login_subtitle">ನಿಮ್ಮ ಕೌಶಲ್ಯ ಪಯಣವನ್ನು ಮುಂದುವರಿಸಲು ಲಾಗಿನ್ ಆಗಿ</string>
+    <string name="hint_email">ಇಮೇಲ್ ವಿಳಾಸ</string>
+    <string name="hint_password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="btn_login">ಲಾಗಿನ್</string>
+    <string name="no_account">ಖಾತೆ ಇಲ್ಲವೇ? ಸೈನ್ ಅಪ್ ಮಾಡಿ</string>
+</resources>

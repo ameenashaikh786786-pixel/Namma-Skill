@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274267241810",
+    "project_id": "namma-skills-eed67",
+    "storage_bucket": "namma-skills-eed67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274267241810:android:f79e4484afbf8f98198e8b",
+        "android_client_info": {
+          "package_name": "com.namma.skill"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNi2pVE6CNd9oAwgGhf_gFn5Vfqgo68e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

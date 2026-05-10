@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Namma Skill Premium Palette -->
+    <color name="primary">#4F46E5</color> <!-- Vibrant Indigo -->
+    <color name="primary_light">#818CF8</color>
+    <color name="primary_dark">#312E81</color>
+    <color name="secondary">#0D9488</color> <!-- Teal -->
+    <color name="accent">#F59E0B</color> <!-- Amber -->
+    <color name="background">#F8FAFC</color> <!-- Softer, cooler background -->
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    
+    <!-- Premium Colors & Gradients -->
+    <color name="gold_start">#F59E0B</color>
+    <color name="gold_end">#D97706</color>
+    <color name="overlay_dark">#80000000</color> <!-- 50% Black -->
+    
+    <!-- Status Colors -->
+    <color name="status_applied_bg">#DCFCE7</color>
+    <color name="status_applied_text">#166534</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+    <color name="status_pending_text">#B45309</color>
+</resources>
