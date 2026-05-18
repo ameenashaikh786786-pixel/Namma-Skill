@@ -41,7 +41,7 @@ Namma-Skill helps users learn and improve their skills through an easy-to-use An
 - Improve user engagement through simple UI
 - Encourage self-learning and growth
 
-  Future Enhancements
+ 🔮 Future Enhancements
 
 - AI-based skill recommendations
 - Multi-language support
